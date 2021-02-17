@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    text-align: center;
+    margin-top: 360px;
+}
+
+.btn{
+    background: none;
+    border: 1px solid #81ecec;
+    padding: 10px 20px;
+    transition: 0.8s;
+    font-family: "montserrat";
+    font-size: 20px;
+    margin: 10px;
+    position: relative;  
+    overflow: hidden;
+}
+
+.btn-1,.btn-2{
+    color: #81ecec;
+}
+.btn-3,.btn-4{
+    color: white;
+}
+.btn-1:hover,.btn-2:hover{
+    color: white;
+}
+.btn-3:hover,.btn-4:hover{
+    color: #81ecec;
+}
+.btn::before{
+    content: "";
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #81ecec;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn-1::before,.btn-3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn-2::before,.btn-4::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.btn-3::before, .btn-4::before{
+    height: 180%;
+}
+
+.btn-1:hover::before, .btn-2:hover::before{
+    height: 180%;
+}
+.btn-3:hover::before, .btn-4:hover::before{
+    height: 0%;
+}
