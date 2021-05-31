@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.trapezium{
+    width: 80px;
+    height: 40px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+}
+
+.display{
+    color: yellowgreen;
+    font-size: 40px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
