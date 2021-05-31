@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid yellow;
+}
+
+.display{
+    position: absolute;
+    color: yellowgreen;
+    left: 400px;
+    top: 150px;
+    font-size: 40px;
+}
