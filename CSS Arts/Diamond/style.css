@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.diamond{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    transform: rotate(45deg);
+}
+
+.display{
+    position: absolute;
+    color: darkgray;
+    left: 400px;
+    top: 150px;
+    font-size: 40px;
+}
