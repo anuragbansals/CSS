@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+.container{
+    /* background-color: red; */
+}
+
+.face{
+    height: 80px;
+    width: 120px;
+    background-color: olive;
+    border-radius: 20px;
+}
+
+.eye-l, .eye-r{
+    position: relative;
+    height: 5px;
+    width: 20px;
+    background-color: black;
+   
+}
+
+.eye-l{
+    left: 20px;
+    top: 20px;
+}
+
+.eye-r{
+    left: 80px;
+    top: 15px;
+}
+
+.nose{
+    position: relative;
+    height:17px;
+    width: 5px; 
+    background-color: black;
+    /* width: 0;
+    height: 0; */
+    /* border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 25px solid black; */
+    /* left: 50px;
+    top: 20px; */
+    left: 55px;
+    top: 23px;
+}
+
+.mouth{
+    position: relative;
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    top: 32px;
+    left: 46px;
+}
+
+.neck{
+    position: relative;
+    height: 30px;
+    width: 25px;
+    background-color: black;
+    left: 45px;
+}
+
+.ear-l, .ear-r{
+    height: 0;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 25px solid black; 
+    position: relative;
+}
+
+.ear-l{
+    left: 20px;
+    top: 26px;
+}
+
+.ear-r{
+    left: 80px;
+}
+
+.sign{
+    height: 10px;
+    width: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    position: relative;
+    left: 55px;
+    top: 25px;
+}
